@@ -1,10 +1,9 @@
-import './App.css';
+import "./App.scss";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import Footer from "./components/Footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+  return <Footer />;
 }
 
 export default App;

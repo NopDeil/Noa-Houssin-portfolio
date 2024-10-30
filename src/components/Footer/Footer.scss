@@ -1,0 +1,40 @@
+@import "../../utils/Variable.scss";
+
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 40px 0 20px 0;
+  height: 100px;
+  background-color: $bg_footer;
+  div {
+    .reseaux {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        li {
+          margin: 0 10px 0;
+          list-style: none;
+          a {
+            i {
+              color: $primary;
+              font-size: xx-large;
+              &:hover {
+                color: lighten(
+                  grey,
+                  20%
+                ); 
+                font-size: xxx-large; // rise size hover
+                transition: all 0.3s ease; 
+              }
+            }
+          }
+        }
+      }
+    }
+
+    p {
+      color: $primary;
+    }
+  }
+}
