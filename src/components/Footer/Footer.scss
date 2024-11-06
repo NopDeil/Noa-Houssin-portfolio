@@ -5,8 +5,10 @@ footer {
   width: 100%;
   padding: 40px 0 20px 0;
   height: 100px;
-  background-color: $bg_footer;
-  div {
+  background-color: $bg;
+  position: fixed;
+  bottom: 0;
+   div {
     .reseaux {
       ul {
         display: flex;
@@ -17,15 +19,12 @@ footer {
           list-style: none;
           a {
             i {
-              color: $primary;
+              color: $secondary;
               font-size: xx-large;
               &:hover {
-                color: lighten(
-                  grey,
-                  20%
-                ); 
+                color: lighten(grey, 20%);
                 font-size: xxx-large; // rise size hover
-                transition: all 0.3s ease; 
+                transition: all 0.3s ease;
               }
             }
           }
@@ -34,7 +33,7 @@ footer {
     }
 
     p {
-      color: $primary;
+      color: $secondary;
     }
   }
 }
