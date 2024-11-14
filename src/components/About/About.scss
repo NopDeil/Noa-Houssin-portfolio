@@ -1,0 +1,24 @@
+@import "../../utils/Variable.scss";
+
+#aboutSection {
+  background-color: $bg;
+  text-align: center;
+  padding: 80px;
+  article {
+    h2 {
+      color: $primary;
+      margin: 0;
+      font-size: xx-large;
+      margin-bottom: 20px;
+    }
+    p {
+      color: $primary;
+    }
+    .about-btn {
+      border: none;
+      background-color: $primary;
+      color: $secondary;
+      padding: 10px;
+    }
+  }
+}

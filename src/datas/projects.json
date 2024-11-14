@@ -3,42 +3,62 @@
 		"id": 1,
 		"title": "Booki",
 		"description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-		"image": "/images/Booki.jpg",
+		"image": "/assets/Booki.png",
 		"technologies":["HTML","CSS"],
 		"github": "https://github.com/NopDeil/OCP2",
-		"projectLink" : "https://nopdeil.github.io/OCP2/"	
+		"projectLink" : "https://nopdeil.github.io/OCP2/",
+		"categorie": {
+			"id": 2,
+			"name": "Frontend"
+		}
 	},
 	{
 		"id": 2,
 		"title": "Sophie Bluel",
 		"description": "Créez une page web dynamique avec JavaScript",
-		"image": "/images/Sophie_Bluel.png",
+		"image": "/assets/Sophie.png",
 		"technologies":["HTML","CSS","JavaScript"],	
-        "github" :"https://github.com/NopDeil/Portefolio-Sophie-Bluel"
+        "github" :"https://github.com/NopDeil/Portefolio-Sophie-Bluel",
+		"categorie": {
+			"id": 2,
+			"name": "Frontend"
+		}
 	},
 	{
 		"id": 3,
 		"title": "Nina Carducci",
 		"description": "Débuggez et optimisez un site de photographe",
-		"image": "/images/Nina Carducci.png",
+		"image": "./assets/Nina.png",
 		"technologies":["HTML","CSS","JavaScript","NodeJs"],
 		"github": "https://github.com/NopDeil/Nina-Carducci-Dev",
-		"projectLink" : "https://nopdeil.github.io/Nina-Carducci-Dev/"
+		"projectLink" : "https://nopdeil.github.io/Nina-Carducci-Dev/",
+		"categorie": {
+			"id": 4,
+			"name": "SEO"
+		}
 	},
 	{
 		"id": 4,
 		"title": "Kasa",
 		"description": "Créez une application web de location immobilière avec React",
-		"image": "/images/Kasa.png",
+		"image": "/assets/Kasa.png",
 		"technologies":["HTML","SCSS","React"],		
-        "github":"https://github.com/NopDeil/OC-Projet5"
+        "github":"https://github.com/NopDeil/OC-Projet5",
+		"categorie": {
+			"id": 2,
+			"name": "Frontend"
+		}
 	},
 	{
 		"id": 5,
 		"title": "Mon Vieux Grimoire",
 		"description": "Développez le back-end d'un site de notation de livres",
-		"image": "/images/Mon Vieux Grimoire.png",
+		"image": "/assets/Grimoire.png",
 		"technologies":["HTML","CSS","JavaScript"],
-        "github":"https://github.com/NopDeil/P6-Dev-Web-livres"
+        "github":"https://github.com/NopDeil/P6-Dev-Web-livres",
+		"categorie": {
+			"id": 3,
+			"name": "Backend"
+		}
 	}
 ]

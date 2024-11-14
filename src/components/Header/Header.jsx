@@ -6,15 +6,17 @@ function Header() {
     <header>
       <nav>
         <div className="logoSection">
-          <a href="#">
+          <a href="https://github.com/NopDeil">
             <img src={Logo} alt="Logo" />
           </a>
         </div>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">My Creations</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#homeSection">Accueil</a></li>
+          <li><a href="#aboutSection">À propos</a></li>
+          <li><a href="#skillSection">Compétences</a></li>
+          <li><a href="#trainingSection">Formations</a></li>
+          <li><a href="#projetSection">Projets</a></li>
+          <li><a href="#contactSection">Contact</a></li>
         </ul>
       </nav>
     </header>
