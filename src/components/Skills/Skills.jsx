@@ -4,7 +4,7 @@ function Skills() {
   return (
     <section id="skillSection">
       <h2>MES COMPÉTENCES</h2>
-        <h3>Technologies Maîtrisées</h3>
+        <h3>Technologies Utilisées</h3>
       <div className="frontend-backend">
         <ul>
           <li>

@@ -4,9 +4,12 @@
 		"title": "Booki",
 		"description": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
 		"image": "/assets/Booki.png",
-		"technologies":["HTML","CSS"],
+		"technologies": [
+			{ "name": "HTML", "icon": "fa-brands fa-html5" },
+			{ "name": "CSS", "icon": "fa-brands fa-css3-alt" }
+		],
 		"github": "https://github.com/NopDeil/OCP2",
-		"projectLink" : "https://nopdeil.github.io/OCP2/",
+		"projectLink": "https://nopdeil.github.io/OCP2/",
 		"categorie": {
 			"id": 2,
 			"name": "Frontend"
@@ -17,8 +20,12 @@
 		"title": "Sophie Bluel",
 		"description": "Créez une page web dynamique avec JavaScript",
 		"image": "/assets/Sophie.png",
-		"technologies":["HTML","CSS","JavaScript"],	
-        "github" :"https://github.com/NopDeil/Portefolio-Sophie-Bluel",
+		"technologies": [
+			{ "name": "HTML", "icon": "fa-brands fa-html5" },
+			{ "name": "CSS", "icon": "fa-brands fa-css3-alt" },
+			{ "name": "Js", "icon": "fa-brands fa-js" }
+		],
+		"github": "https://github.com/NopDeil/Portefolio-Sophie-Bluel",
 		"categorie": {
 			"id": 2,
 			"name": "Frontend"
@@ -28,10 +35,15 @@
 		"id": 3,
 		"title": "Nina Carducci",
 		"description": "Débuggez et optimisez un site de photographe",
-		"image": "./assets/Nina.png",
-		"technologies":["HTML","CSS","JavaScript","NodeJs"],
+		"image": "/assets/Nina.png",
+		"technologies": [
+			{ "name": "HTML", "icon": "fa-brands fa-html5" },
+			{ "name": "CSS", "icon": "fa-brands fa-css3-alt" },
+			{ "name": "Js", "icon": "fa-brands fa-js" },
+			{ "name": "NodeJs", "icon": "fa-brands fa-node-js" }
+		],
 		"github": "https://github.com/NopDeil/Nina-Carducci-Dev",
-		"projectLink" : "https://nopdeil.github.io/Nina-Carducci-Dev/",
+		"projectLink": "https://nopdeil.github.io/Nina-Carducci-Dev/",
 		"categorie": {
 			"id": 4,
 			"name": "SEO"
@@ -42,8 +54,13 @@
 		"title": "Kasa",
 		"description": "Créez une application web de location immobilière avec React",
 		"image": "/assets/Kasa.png",
-		"technologies":["HTML","SCSS","React"],		
-        "github":"https://github.com/NopDeil/OC-Projet5",
+		"technologies": [
+			{ "name": "HTML", "icon": "fa-brands fa-html5" },
+			{ "name": "SCSS", "icon": "fa-brands fa-sass" },
+			{ "name": "Js", "icon": "fa-brands fa-js" },
+			{ "name": "React", "icon": "fa-brands fa-react" }
+		],
+		"github": "https://github.com/NopDeil/OC-Projet5",
 		"categorie": {
 			"id": 2,
 			"name": "Frontend"
@@ -54,8 +71,14 @@
 		"title": "Mon Vieux Grimoire",
 		"description": "Développez le back-end d'un site de notation de livres",
 		"image": "/assets/Grimoire.png",
-		"technologies":["HTML","CSS","JavaScript"],
-        "github":"https://github.com/NopDeil/P6-Dev-Web-livres",
+		"technologies": [
+			{ "name": "HTML", "icon": "fa-brands fa-html5" },
+			{ "name": "CSS", "icon": "fa-brands fa-css3-alt" },
+			{ "name": "JS", "icon": "fa-brands fa-js" },
+			{ "name": "NodeJs", "icon": "fa-brands fa-node-js" },
+			{ "name": "MongoDb", "icon": "fa-solid fa-database" }
+		],
+		"github": "https://github.com/NopDeil/P6-Dev-Web-livres",
 		"categorie": {
 			"id": 3,
 			"name": "Backend"

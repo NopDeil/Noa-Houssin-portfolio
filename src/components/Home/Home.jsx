@@ -1,5 +1,6 @@
 import ParticlesComponent from "../ParticlesComponent/ParticlesComponent";
 import "./Home.scss";
+import { Button } from "react-bootstrap";
 
 function Home() {
   return (
@@ -13,7 +14,7 @@ function Home() {
         Développeur frontend spécialisé dans des solutions web créatives et
         réactives, je transforme vos idées en interfaces fluides et dynamiques !
       </p>
-        <button className="home-btn">Contact me</button>
+        <Button className="home-btn" href="#contactSection">Contact me</Button>
     </section>
   );
 }

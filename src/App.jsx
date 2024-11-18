@@ -7,7 +7,9 @@ import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
+import Training from "./components/Training/Training";
 import Projects from "./components/Projects/Projects";
+import ContactForm from "./components/Form/Contact";
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
+      <Training/>
       <Projects/>
+      <ContactForm/>
       <Footer />
     </React.Fragment>
   );
