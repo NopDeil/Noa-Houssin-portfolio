@@ -2,57 +2,88 @@
 
 .card {
   border-radius: 10px;
-  width: 30%;
-  height: 400px;
-  background-color: #320e3b;
-  color: white;
-  position: relative;
+  width: 100%;
+  max-width: 350px; // Largeur maximale pour les grands écrans
+  height: auto; // Ajuster automatiquement la hauteur
+  background-color: $card;
+  color: $primary;
   display: flex;
   flex-direction: column;
   margin: 15px;
   overflow: hidden;
 
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
   img {
     width: 100%;
-    height: 100%;
-    position: relative;
-    top: 0;
-    background-size: cover;
-    object-fit: cover;
+    height: 250px; // Hauteur fixe
+    object-fit: fill; // Conserver les proportions
+    padding: 10px;
+    border-radius: 20px;
+
+    @media (max-width: 576px) {
+      height: 200px; // Réduction de la hauteur sur mobiles
+    }
   }
 
   h2 {
     font-weight: 500;
-    color: white;
-    margin: 0;
-    padding: 10px;
+    color: $primary;
+    margin: 10px 0;
+    padding: 0 10px;
     font-size: 20px;
-    text-align: left;
-    width: 90%;
-  }
-  .technologies {
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-
-    .tech-icon {
-      margin-right: 8px;
-    font-size: 1em;
     text-align: center;
 
+    @media (max-width: 576px) {
+      font-size: 16px; // Réduction de la taille sur mobiles
+    }
+  }
+
+  .technologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    gap: 10px;
+
+    .tech-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
       i {
-        margin-right: 5px;
-        border: 1px solid transparent;
-        font-size: x-large;
-        padding: 5px;
-        background-color: #bc8da0;
-        color: white;
-        border-radius: 20px;
+        font-size: 1.5em;
+        padding: 8px;
+        background-color: $secondary;
+        color: $primary;
+        border-radius: 50%;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: darken(#bc8da0, 10%);
+        }
+
+        @media (max-width: 576px) {
+          font-size: 1.2em; // Réduction sur mobiles
+        }
       }
     }
   }
+
   .cardBtn {
     display: flex;
     justify-content: space-between;
+    gap: 15px;
+    padding: 10px;
+
+    @media (max-width: 576px) {
+      flex-direction: column; // Boutons en colonne sur petits écrans
+      gap: 10px;
+    }
   }
 }

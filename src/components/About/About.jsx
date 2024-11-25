@@ -23,8 +23,7 @@ function About() {
           efficaces. Si vous recherchez un développeur motivé pour donner vie à
           vos projets web, n’hésitez pas à me contacter pour en discuter.
         </p>
-        <Button variant="warning" href="https://github.com/NopDeil">GITHUB</Button>{' '}
-        <Button variant="light">MON CV</Button>{' '}
+        <Button className="about-btn" href="https://github.com/NopDeil">Github</Button>{' '}
       </article>
     </section>
   );

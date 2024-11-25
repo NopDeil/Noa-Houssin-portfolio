@@ -14,30 +14,38 @@ function ContactForm() {
     e.preventDefault();
 
     const templateParams = {
-      user_name: nom,
-      user_email: email,
-      subject: objet,
-      message: message,
+      to_name: "Noa", 
+      from_name: nom, 
+      from_email: email,
+      subject: objet, // Sujet
+      message: message, // Message principal
     };
 
     emailjs
       .send(
-        "service_mss9el6", // Remplace par ton Service ID
-        "template_fdv74g5", // Remplace par ton Template ID
+        "service_mss9el6", 
+        "template_fdv74g5", 
         templateParams,
-        "dC4YMAn9b1tM7yLiD" // Remplace par ta clé publique
+        "dC4YMAn9b1tM7yLiD"
       )
       .then(
         (result) => {
+          console.log("Email envoyé avec succès :", result.text);
           setEmailStatus("success");
+          setTimeout(() => {
+            setEmailStatus(null)
+          }, 3000);
           setNom("");
           setEmail("");
           setObjet("");
           setMessage("");
         },
         (error) => {
-          console.error("Erreur lors de l'envoi : ", error.text);
+          console.error("Erreur lors de l'envoi :", error.text);
           setEmailStatus("error");
+          setTimeout(() => {
+            setEmailStatus(null)
+          }, 3000);
         }
       );
   };

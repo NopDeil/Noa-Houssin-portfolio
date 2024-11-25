@@ -11,13 +11,14 @@ footer {
       ul {
         display: flex;
         flex-wrap: wrap;
+        padding: 0 20px;
         justify-content: center;
         li {
           margin: 0 10px 0;
           list-style: none;
           a {
             i {
-              color: $secondary;
+              color: $primary;
               font-size: xx-large;
               &:hover {
                 color: lighten(grey, 20%);
@@ -31,7 +32,7 @@ footer {
     }
 
     p {
-      color: $secondary;
+      color: $primary;
     }
   }
 }

@@ -1,8 +1,10 @@
+@import "../../utils/Variable.scss";
+
 #contactSection{
     padding: 50px 70px;
-    background-color: #320e3b;
+    background-color: $contact;
     .contactForm{
-        color: white;
+        color: $primary;
         h2{
             margin-bottom: 40px;
         }

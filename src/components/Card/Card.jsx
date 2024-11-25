@@ -7,7 +7,7 @@ function Cards({ title, description, github, project_link, image, technologies})
 
   return (
     <Card>
-      <Card.Img src={image} alt={title} />
+      <Card.Img src={require(`../../assets/${image}`)} alt={title} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
@@ -15,7 +15,7 @@ function Cards({ title, description, github, project_link, image, technologies})
         <div className="technologies">
           {technologies.map((tech, index) => (
             <span key={index} className="tech-icon">
-              <i className={tech.icon}></i> {tech.name}
+              <i className={tech.icon}></i>
             </span>
           ))}
         </div>

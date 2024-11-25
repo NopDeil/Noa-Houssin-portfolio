@@ -7,8 +7,8 @@ function Footer() {
         <div className="reseaux">
         <ul>
           <li>
-            <a href="https://github.com/NopDeil">
-              <i className="fab fa-square-github" aria-label="github"></i>
+            <a href="https://github.com/NopDeil" aria-label="github">
+              <i className="fab fa-square-github"></i>
             </a>
           </li>
           <li>
