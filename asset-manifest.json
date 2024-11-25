@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Noa-Houssin-portfolio/static/css/main.e3245976.css",
-    "main.js": "/Noa-Houssin-portfolio/static/js/main.591113c9.js",
-    "static/media/Kasa.png": "/Noa-Houssin-portfolio/static/media/Kasa.656b3dd6c57b1d08028b.png",
-    "static/media/fa-solid-900.ttf": "/Noa-Houssin-portfolio/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
-    "static/media/Sophie.png": "/Noa-Houssin-portfolio/static/media/Sophie.047e6d12d5eb3e4209d5.png",
-    "static/media/fa-brands-400.ttf": "/Noa-Houssin-portfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
-    "static/media/fa-solid-900.woff2": "/Noa-Houssin-portfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/Grimoire.png": "/Noa-Houssin-portfolio/static/media/Grimoire.3fdd5fd2f86bbc95771f.png",
-    "static/media/fa-brands-400.woff2": "/Noa-Houssin-portfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/Nina.png": "/Noa-Houssin-portfolio/static/media/Nina.7284c205c686ddd1acc9.png",
-    "static/media/fa-regular-400.ttf": "/Noa-Houssin-portfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
-    "static/media/fa-regular-400.woff2": "/Noa-Houssin-portfolio/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/Booki.png": "/Noa-Houssin-portfolio/static/media/Booki.9f03a30f7975cd88f704.png",
-    "static/media/Logo.webp": "/Noa-Houssin-portfolio/static/media/Logo.981fcc34cea960292006.webp",
-    "static/media/fa-v4compatibility.ttf": "/Noa-Houssin-portfolio/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
-    "static/media/fa-v4compatibility.woff2": "/Noa-Houssin-portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
-    "index.html": "/Noa-Houssin-portfolio/index.html",
-    "main.e3245976.css.map": "/Noa-Houssin-portfolio/static/css/main.e3245976.css.map",
-    "main.591113c9.js.map": "/Noa-Houssin-portfolio/static/js/main.591113c9.js.map"
+    "main.css": "/noa-houssin-portfolio/static/css/main.f2e78f16.css",
+    "main.js": "/noa-houssin-portfolio/static/js/main.88bb2f6a.js",
+    "static/media/Kasa.png": "/noa-houssin-portfolio/static/media/Kasa.656b3dd6c57b1d08028b.png",
+    "static/media/fa-solid-900.ttf": "/noa-houssin-portfolio/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/Sophie.png": "/noa-houssin-portfolio/static/media/Sophie.047e6d12d5eb3e4209d5.png",
+    "static/media/fa-brands-400.ttf": "/noa-houssin-portfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/noa-houssin-portfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/Grimoire.png": "/noa-houssin-portfolio/static/media/Grimoire.3fdd5fd2f86bbc95771f.png",
+    "static/media/fa-brands-400.woff2": "/noa-houssin-portfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/Nina.png": "/noa-houssin-portfolio/static/media/Nina.7284c205c686ddd1acc9.png",
+    "static/media/fa-regular-400.ttf": "/noa-houssin-portfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/noa-houssin-portfolio/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/Booki.png": "/noa-houssin-portfolio/static/media/Booki.9f03a30f7975cd88f704.png",
+    "static/media/Logo.webp": "/noa-houssin-portfolio/static/media/Logo.981fcc34cea960292006.webp",
+    "static/media/fa-v4compatibility.ttf": "/noa-houssin-portfolio/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/noa-houssin-portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/noa-houssin-portfolio/index.html",
+    "main.f2e78f16.css.map": "/noa-houssin-portfolio/static/css/main.f2e78f16.css.map",
+    "main.88bb2f6a.js.map": "/noa-houssin-portfolio/static/js/main.88bb2f6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3245976.css",
-    "static/js/main.591113c9.js"
+    "static/css/main.f2e78f16.css",
+    "static/js/main.88bb2f6a.js"
   ]
 }
